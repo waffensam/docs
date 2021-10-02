@@ -16,7 +16,7 @@ Tornado Cash 通过切断发送方和接收方地址的链上关联来改善隐�
 
 为了保护隐私，还有一些额外的操作，比如，使用一个全新的地址来支取资金，并用中继器支付交易费。 
 
- 更多信息请参阅[ Tornado.Cash 是如何工作的? ](how-does-tornado.cash-work.md)和 [ 保持匿名的诀窍 ](tips-to-remain-anonymous.md).
+ 更多信息请参阅 [Tornado.Cash 如何工作?](how-does-tornado.cash-work.md) 和 [保持匿名的诀窍](tips-to-remain-anonymous.md).
 
 ## 哪里可以找到 Tornado.Cash？
 
@@ -32,7 +32,7 @@ Tornado Cash 通过切断发送方和接收方地址的链上关联来改善隐�
 
 该协议同时包括了一个**匿名挖矿系统**，允许用户赚取其**治理代币**。得益于 TORN 代币，Tornado Cash 用户积极地参与改进该协议。社区对于 Tornado Cash 的演进和特性的改善有着很强的影响力。协议的参数和治理代币的分发完全由社区治理控制。
 
-更多信息请参阅[ 匿名挖矿 ](anonymity-mining.md)和[ Tornado.Cash 代币 ](torn.md)。
+更多信息请参阅 [匿名挖矿](anonymity-mining.md) 和 [Tornado.Cash 代币](torn.md)。
 
 ## Tornado.Cash 如何运行？
 
