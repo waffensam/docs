@@ -1,23 +1,23 @@
-# How does Tornado.Cash work?
+# Tornado.Cash 如何工作？
 
 **\[Work in progress\]**
 
 Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
 
-### Global overview of Tornado.Cash functioning
+### Tornado.Cash 功能概述
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets. 
+为了实现隐私，Tornado.Cash **使用智能合约从一个地址接收代币存入并允许通过另一个地址支取**。这些智能合约像一个池子使所有存入的资产混合在一起。
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized. 
+一旦资金通过一个全新的地址从这些池子里取出，发送方和接收方的链上联系就被切断了。被支取的数字资产因此实现匿名化。
 
-When a user puts funds into a pool \(a.k.a. the deposit\), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+当一个用户把资金放入池子（也就是存入），就会生成一个密语。这个密语像私钥一样可以使用户访问到这些资金。有了密语，用户可以使用不同的地址 - 无论新的还是旧的，来支取这些资金。
 
-The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
+这种协议的效果取决于池子中的用户数量，用户数越多越好。当然为了提升隐私和匿名性，用户必须牢记一些基本规则：
 
-*  Leaving a lapse of time between the deposit & the withdrawal action
-*  Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+*  存入和支取操作之间要有一定的时间间隔。
+*  在取回资产前，等待几笔交易，以使池子里的资金充分混合。
 
-_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_更多建议请参阅_ [_匿名化的诀窍_](tips-to-remain-anonymous.md)_。_
 
 ### Contribution of zk-SNARK & hashing process
 
