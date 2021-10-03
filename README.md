@@ -1,46 +1,45 @@
-# Introduction of Tornado.Cash
+# Tornado.Cash 介绍
 
 **\[Work in progress\]**
 
 ![](.gitbook/assets/image.png)
 
-Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
+Tornado Cash 是一个 **完全去中心化** **非托管** **协议** 实现了加密世界的隐私交易。
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+作为一个去中心化协议，Tornado.Cash 的智能合约已经永久性地部署在了以太坊区块链上。它们无法被更改或篡改。因此，没有人 - 包括最初的开发者也无法修改或者关闭它们。所有治理和挖矿智能合约都由社区通过去中心化的方式部署。
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+作为一个非托管协议，用户在使用 Tornado.Cash 时，始终持有他们的加密货币。每次存入，用户都会收到私钥，因此可以完全控制自己的资产。
 
-## How privacy is achieved?
+## 如何实现隐私？
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+Tornado Cash 通过切断发送方和接收方地址的链上关联来改善隐私性。它使用一个智能合约来接受 ETH 和其他代币的存入，并可以使用另一个地址来支取。
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance. 
+为了保护隐私，还有一些额外的操作，比如，使用一个全新的地址来支取资金，并用中继器支付交易费。 
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Tips to remain anonymous](tips-to-remain-anonymous.md).
+_更多信息请参阅 [Tornado.Cash 如何工作?](how-does-tornado.cash-work.md) 和 [保持匿名的诀窍](tips-to-remain-anonymous.md)._
 
-## Where is Tornado.Cash at?
+## 哪里可以找到 Tornado.Cash？
 
-The protocol has been operating on the **Ethereum blockchain** since its inception in 2019. It was recently deployed, in June 2021, on **Binance Smart Chain** & **Polygon**.
+该协议最初于2019年运行在**以太坊区块链**上。最近，它又于2021年部署在了**币安智能链**和 **Polygon** 上。
 
-As of today, Tornado.Cash can be used with the following tokens:
+如今 Tornado.Cash 可以用于以下几种代币：
 
-* On Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
-* On Binance Smart Chain: **BNB** _\(Binance Coin\)_.
-* On Polygon Network: **MATIC** _\(Polygon\)_
+* 在以太坊上 : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
+* 在币安智能链上: **BNB** _\(Binance Coin\)_.
+* 在 Polygon 网络上: **MATIC** _\(Polygon\)_
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol para@eters & token distribution are completely under the community's control through this governance.
+该协议同时包括了一个**匿名挖矿系统**，允许用户赚取其**治理代币**。得益于 TORN 代币，Tornado Cash 用户积极地参与改进该协议。社区对于 Tornado Cash 的演进和特性的改善有着很强的影响力。协议的参数和治理代币的分发完全由社区治理控制。
 
-More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) are available.
+_更多信息请参阅 [匿名挖矿](anonymity-mining.md) 和 [Tornado.Cash 代币](torn.md)。_
 
-## How does Tornado.Cash run?
+## Tornado.Cash 如何运行？
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** Working as a DAO \(Decentralized Autonomous Organization\), Tornado.Cash governance and mining smart contracts are deployed by its community.
+[Tornado.Cash 的代码](https://github.com/tornadocash) 是完全**开源的**。作为一个 DAO （去中心化自治组织），Tornado.Cash 治理和挖矿的智能合约由其社区部署。
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+该协议同时应用了 zk-SNARK，它允许零知识证明，使用户无需透露信息内容也能证明自己拥有它。这项技术的应用基于 **Zcash 团队在以太坊社区帮助下的开源研究**。为了设置 zk-SNARK 初始密钥， Tornado.Cash [可信设置社区](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) 于2020年5月启动并记录了 [1114名贡献者](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa)。如此庞大的贡献者数量确保了不可能通过伪造零知识证明来危害协议。
 
-User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it. 
+用户界面由社区托管在 **IPFS** （InterPlanetary 文件系统）上，由此将数据被删除的风险降至最低。只要还有一名用户托管它，界面就能正常工作。 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
-
+_作者: [@ayefda](https://torn.community/u/ayefda)_
