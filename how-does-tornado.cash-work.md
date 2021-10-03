@@ -2,7 +2,7 @@
 
 **\[Work in progress\]**
 
-Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
+在开始 Tornado.Cash 教程之前，下面是关于该协议功能的概述。
 
 ### Tornado.Cash 功能概述
 
