@@ -17,7 +17,7 @@
 *  存入和支取操作之间要有一定的时间间隔。
 *  在取回资产前，等待几笔交易，以使池子里的资金充分混合。
 
-_更多建议请参阅 [保持匿名的诀窍](tips-to-remain-anonymous.md)。_
+_更多建议请参阅 [保持匿名的小窍门](tips-to-remain-anonymous.md)。_
 
 ### Contribution of zk-SNARK & hashing process
 
