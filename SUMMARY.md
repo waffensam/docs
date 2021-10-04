@@ -2,7 +2,7 @@
 
 * [Tornado.Cash 介绍](README.md)
 * [Tornado.Cash 如何工作？](how-does-tornado.cash-work.md)
-* [保持匿名的诀窍](tips-to-remain-anonymous.md)
+* [保持匿名的小窍门](tips-to-remain-anonymous.md)
 * [存入和支取](untitled.md)
 * [匿名挖矿](anonymity-mining.md)
 * [TORN](torn.md)
