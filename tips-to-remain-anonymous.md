@@ -1,32 +1,32 @@
-# Tips to remain anonymous
+# 保持匿名的小窍门
 
-The Tornado Cash tool allows you to remain anonymous on-chain. However, if the tool is used without protecting oneself upstream and downstream, there is no point and the anonymity would only be partial. There are practices to avoid this.
+Tornado Cash 工具可以使你在链上保持匿名。但是如果你在使用 Tornado Cash 工具时没有保护好你自己，那么单纯链上部分的匿名便没有意义。下面一些做法可以避免这种情况。
 
-### Use a VPN
+### 使用 VPN
 
-Your internet service provider \(ISP\) identifies you with an IP address. To prevent third parties from knowing that you are using Tornado.cash, you should consider using TOR and/or a VPN for your transfers. Avoid using free VPNs, they tend to keep or even sell your data. There are several VPNs on the market boasting a "no-log policy".
+你的互联网服务提供商（ISP）通过 IP 识别你。为了防止第三方知道你正在使用 Tornado.cash 你应该在转账时考虑使用 TOR 或者 VPN。不要使用免费的 VPN 他们倾向于保留甚至贩卖你的数据。市面上有一些 VPN 宣称自己是不保留日志的。
 
-### Save your note in a safe place <a id="save-your-note-in-a-safe-place"></a>
+### 把你的密语保存在安全的地方 <a id="save-your-note-in-a-safe-place"></a>
 
-Your note provides a record of your original transaction. Anyone who has it can withdraw the funds deposited, but also know the deposit address. Be sure to keep this note away from prying eyes and store it in a secure environment.
+密语提供了你原始交易的记录。有了密语任何人都能支取被存入的资金，同时也能知道存入时的地址。确保将密语存放在安全的地方，没有人能够窥探到它。
 
-### Delete data <a id="delete-data"></a>
+### 删除数据 <a id="delete-data"></a>
 
-Your browser is a real source of information for the extensions you use. Delete your data after each deposit or withdrawal. If two transfers are made with the same cookies, the extension you are using will be able to link these two transactions.
+你的浏览器会保存很多信息供其插件使用。记得在每次存入和支取后要删除你的浏览数据。如果两次交易使用的是相同的 cookies 你使用的浏览器插件便能够将这两笔交易关联起来。
 
-### Avoid using the same API token <a id="avoid-using-the-same-api-token"></a>
+### 避免使用相同的 API 令牌 <a id="avoid-using-the-same-api-token"></a>
 
-If you use the same API token for two transactions, you will be easily recognized by your extension. For Metamask users, be aware that this extension will use the same token for each of your transactions. To avoid this problem, don't hesitate to uninstall and reinstall Metamask for each transfer, making sure to create a new account each time.
+如果两个交易使用了相同的 API 令牌，那你很容易就被插件识别。对于 Metamask 用户，注意这个插件会在每笔交易时使用相同的令牌。为了避免这个问题，请在每笔交易前卸载并重新安装 Metamask，确保每次创建一个新账户。
 
-### Be patient <a id="be-patient"></a>
+### 保持耐心 <a id="be-patient"></a>
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MXflGk4w5pDjjlmPCuF%2F-MgQVRqU6Ff6ypW_Q-fV%2F-MgQW0ko2bOUYlnsuG0F%2Fozxj.png?alt=media&token=1debad58-aa3c-4638-9d18-1636e87e3d0a)
 
-Your anonymity also depends on the number of transactions after your deposit \(cf. Statistics tab above\). If you withdraw your funds immediately after depositing them, it is possible to link your deposit to your transfer using correlation probabilities. The longer you wait, the greater your anonymity set will be.
+你的匿名性还取决于你存入后池子发生的交易数量（如上图所示）。如果你在存入后立即支取你的资金，那你存取操作的相关性就越高。你等待的时间越长，匿名性就越好。
 
-### Use multiple addresses
+### 使用多个地址
 
-A 7 x 10eth deposit from one address and a 7 x 10eth withdrawal to a single address can also be linked. Remember to multiply your withdrawal addresses.
+从同一个地址存入 7 x 10eth 由从同一个地址支取 7 x 10eth 很容易被关联起来。记得通过多个地址来支取。
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
+_作者_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
