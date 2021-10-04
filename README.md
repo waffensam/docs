@@ -16,7 +16,7 @@ Tornado Cash 通过切断发送方和接收方地址的链上关联来改善隐�
 
 为了保护隐私，还有一些额外的操作，比如，使用一个全新的地址来支取资金，并用中继器支付交易费。 
 
-_更多信息请参阅 [Tornado.Cash 如何工作?](how-does-tornado.cash-work.md) 和 [保持匿名的诀窍](tips-to-remain-anonymous.md)._
+_更多信息请参阅 [Tornado.Cash 如何工作?](how-does-tornado.cash-work.md) 和 [保持匿名的小窍门](tips-to-remain-anonymous.md)._
 
 ## 哪里可以找到 Tornado.Cash？
 
