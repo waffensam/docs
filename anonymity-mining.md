@@ -1,14 +1,14 @@
-# Anonymity mining
+# 匿名挖矿
 
-Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points \(AP\) dependent on how long they hedge their assets in a pool.
+匿名挖矿是一种提升隐私性激励措施，鼓励用户将资产长时间存放在池子，存入时间越长奖励越高。
 
-_This incentive began on December 18, 2020 and will end on December 18, 2021._
+_这个激励措施开始于2020年11月18日，并于2021年12月18日结束。_
 
-Individuals deposit to any one of the anonymity pools that are supported \(ETH, WBTC, DAI or cDAI\) and are rewarded a fixed amount of AP per block, over the period their deposit remains in the pool. These points can then be exchanged for TORN once claimed.
+任何人将所支持的代币存入匿名池，都会在每个区块收到固定比例的奖励，这些奖励将会以 TORN 的形式被申领。
 
-### Anonymity points \(AP\)
+### 匿名点数（AP）
 
-_Readers should be aware some lower denomination deposits at the time of writing, do not produce a positive return due to the gas costs required to withdraw, redeem and exchange anonymity points_
+_需要注意的是，由于手续费的原因，小额存款可能无法收获理想的 AP 奖励。_
 
 One of the community members created the resource of [a mining spreadsheet 13](https://torn.community/t/anonymity-mining-spreadsheet/720) that helps calculate annual percentage yield’s \(APY’s\) for each pool and each denomination set within, through estimating the fees required to claim a reward. **It is highly recommended to view this resource and plan one’s course of action before expecting to earn yield.** At the bottom of the spreadsheet, you can view each pool by selecting the associated tab.
 
