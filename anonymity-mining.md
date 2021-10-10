@@ -84,7 +84,7 @@ _有效密语（没有取出）被显示为 “unspent”。_
 * [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a) 
 * [Anonymity mining explained \(technical\)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
-_审阅_ [_@sockawoo_](https://torn.community/u/sockawoo) _和_ [_@ethdev_](https://torn.community/u/ethdev) _
+_审阅_ [_@sockawoo_](https://torn.community/u/sockawoo) _和_ [_@ethdev_](https://torn.community/u/ethdev)
 
-_作者_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
+_作者_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)
 
